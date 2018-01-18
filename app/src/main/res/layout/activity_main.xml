@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#edf5ac51"
+    tools:context="com.example.user.drivernotebeta.MainActivity">
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:id="@+id/textExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Затраты за все время:" />
+
+    <TextView
+        android:id="@+id/textMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:id="@+id/textMileage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пробег" />
+
+    <EditText
+        android:id="@+id/editKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:id="@+id/textCosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Расход л/100 км" />
+
+    <EditText
+        android:id="@+id/lkm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:id="@+id/textCosts2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Расход км/л" />
+
+    <EditText
+        android:id="@+id/kml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonreFueling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Заправка" />
+
+    <Button
+        android:id="@+id/buttonRepairs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ремонт" />
+
+    <Button
+        android:id="@+id/buttonLater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Еще" />
+
+</LinearLayout>

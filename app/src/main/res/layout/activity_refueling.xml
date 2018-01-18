@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.drivernotebeta.RefuelingActivity">
+
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:text="Дата:"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:hint="@string/select_date"/>
+
+    <TextView
+        android:id="@+id/textViewMileage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Текущий пробег:"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextKm"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="12sp"
+        android:hint="@string/km"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textViewFilled"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="Заправлено:"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextL"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text=""
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Цена за 1л"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextR"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewCost"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="Стоимость:"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textViewRub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100sp">
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:text="Сохранить"
+        android:textAlignment="center" />
+    <Button
+        android:id="@+id/buttonMainMenu"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:linksClickable="false"
+        android:text="Главное меню"
+        />
+</LinearLayout>
+
+
+</LinearLayout>
+
